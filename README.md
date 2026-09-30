@@ -81,7 +81,7 @@ Vendor-Performance-Analysis/
 └── README.md
 
 ```
----
+--- 
 
 ## 🔍 Key Business Questions
 
@@ -134,7 +134,7 @@ The dashboard helps identify vendors and brands that may require closer monitori
 
 ---
 
-##🧮 Analysis Performed
+## 🧮 Analysis Performed
 
 SQL Analysis
 
@@ -190,10 +190,56 @@ Data Storytelling
 
 ---
 
+## ⭐ Project Summary
+
+Vendor Performance Analysis demonstrates an end-to-end data analytics workflow using SQL, Python, and Power BI.
+
+The project moves from data exploration and transformation to business intelligence reporting, providing insights into:
+
+Vendor sales
+Purchasing performance
+Profitability
+Brand performance
+Purchase contribution
+Low-performing vendors
+Low-performing brands
+Unsold inventory
+
+The project demonstrates practical skills in data analysis, SQL, Python, Power BI, business intelligence, data visualization, and data storytelling.
+
+--- 
+
+## 🚀 Future Improvements
+
+The project can be further enhanced by:
+
+Adding monthly and yearly vendor performance trends
+Adding vendor profitability analysis
+Adding vendor segmentation
+Adding inventory turnover analysis
+Adding ABC/Pareto analysis
+Adding vendor-level drill-through pages
+Adding detailed vendor profiles
+Adding sales forecasting
+Adding inventory demand forecasting
+Adding automated Power BI data refresh
+Adding additional supply-chain KPIs
+Adding interactive what-if analysis
+Adding automated alerts for important performance changes
+
+---
 ## 👩‍💻 Author
 
-Data Science & Artificial Intelligence Student
+Mamta Choudhary
 
-This project was developed as part of a data analytics portfolio to demonstrate practical skills in SQL, Python, and Power BI.
+BSc Data Science & Artificial Intelligence
+
+Interested in:
+
+Data Analytics
+Business Intelligence
+Data Science
+Machine Learning
+Data Visualization
 
 ---
