@@ -54,7 +54,8 @@ Power BI Dashboard
 Business Insights
 
 ```
-
+---
+```
 Vendor-Performance-Analysis/
 │
 ├── data/
@@ -76,6 +77,7 @@ Vendor-Performance-Analysis/
 │
 └── README.md
 
+```
 ---
 
 ## 🔍 Key Business Questions
