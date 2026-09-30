@@ -24,15 +24,16 @@ The analysis helps identify high-performing vendors, low-performing vendors and 
 
 ## 🛠️ Tools & Technologies
 
-- **SQL** – Exploratory Data Analysis and data extraction
-- **Python** – Data cleaning, analysis, and vendor performance calculations
-- **Pandas** – Data manipulation and analysis
-- **NumPy** – Numerical calculations
-- **Matplotlib** – Data visualization
-- **Seaborn** – Statistical visualization
-- **Power BI** – Interactive dashboard and business reporting
-- **Jupyter Notebook** – Analysis environment
-- **SQLite** – Database management
+| Category | Technology |
+|---|---|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Data Visualization | Matplotlib, Seaborn |
+| Database | SQLite |
+| Query Language | SQL |
+| Business Intelligence | Power BI |
+| Development Environment | Jupyter Notebook |
+| Version Control | Git & GitHub |
 
 ---
 
@@ -83,17 +84,53 @@ Vendor-Performance-Analysis/
 ```
 --- 
 
-## 🔍 Key Business Questions
+## 🔍 Key Business Questions & Answers
 
-Which vendors generate the highest sales?
-Which brands contribute the most to overall sales?
-Which vendors have low sales performance?
-Which brands have low performance?
-What percentage of purchases comes from each vendor?
-What is the overall gross profit?
-What is the overall profit margin?
-How much capital is tied up in unsold inventory?
-Which vendors require further business attention?
+### 1. Which vendors generate the highest sales?
+
+The **Top Vendors by Sales** analysis identifies the vendors contributing the highest sales revenue. This helps the business understand which vendors are major contributors to overall sales performance.
+
+### 2. Which brands contribute the most to overall sales?
+
+The **Top Brands by Sales** analysis identifies the brands generating the highest sales. This provides visibility into which brands are driving overall revenue.
+
+### 3. Which vendors have relatively low sales performance?
+
+The **Low Performing Vendors** analysis highlights vendors with comparatively lower sales performance. These vendors can be investigated further using sales, purchase, profitability, and inventory metrics.
+
+### 4. Which brands have relatively low sales performance?
+
+The **Low Performing Brands** analysis identifies brands with comparatively lower sales contribution and helps highlight areas requiring further investigation.
+
+### 5. What percentage of purchasing comes from each vendor?
+
+The **Purchase Contribution %** analysis measures each vendor's contribution to total purchasing value. This helps identify vendors that account for a significant share of procurement activity.
+
+### 6. What is the overall gross profit?
+
+The dashboard reports approximately **134.07M in Gross Profit**, calculated from the difference between total sales and total purchase value.
+
+### 7. What is the overall profit margin?
+
+The overall profit margin is approximately **30.4%**, providing a high-level view of profitability across the analyzed vendor portfolio.
+
+### 8. How much capital is tied up in unsold inventory?
+
+Approximately **2.71M** of capital is associated with unsold inventory. This highlights the importance of monitoring slow-moving and unsold stock.
+
+### 9. What are the overall sales and purchasing values?
+
+The analysis reports approximately:
+
+- **Total Sales:** 441.41M
+- **Total Purchase:** 307.34M
+- **Gross Profit:** 134.07M
+- **Profit Margin:** 30.4%
+- **Unsold Capital:** 2.71M
+
+### 10. Which vendors require further investigation?
+
+Vendors with relatively low sales performance, high purchase contribution but weaker sales outcomes, or potential inventory-related issues can be investigated further using the dashboard.
 
 ---
 
@@ -124,13 +161,37 @@ Key financial performance indicators
 ---
 
 ## 💡 Key Insights
-Total sales generated across the analyzed vendor portfolio are 441.41M.
-Total purchases amount to 307.34M.
-The analysis indicates a gross profit of 134.07M.
-Overall profit margin is approximately 30.4%.
-Approximately 2.71M of capital is tied up in unsold inventory.
-Vendor and brand performance varies significantly, making segmentation useful for business decision-making.
-The dashboard helps identify vendors and brands that may require closer monitoring.
+
+### Financial Performance
+
+- Total Sales reached approximately **441.41M**.
+- Total Purchase value was approximately **307.34M**.
+- Gross Profit was approximately **134.07M**.
+- Overall Profit Margin was approximately **30.4%**.
+- Approximately **2.71M** of capital is tied up in unsold inventory.
+
+### Vendor Performance
+
+- Vendor performance varies significantly across the portfolio.
+- The Top Vendors analysis identifies the vendors contributing the highest sales.
+- Low-performing vendors can be investigated to understand potential sales, purchasing, or inventory issues.
+- Purchase Contribution % highlights the vendors responsible for a significant share of procurement activity.
+
+### Brand Performance
+
+- Sales contribution differs across brands.
+- Top Brands by Sales identifies the brands contributing the highest revenue.
+- Low-performing brands can be investigated further for sales and inventory optimization opportunities.
+
+### Inventory Performance
+
+- Unsold inventory represents capital that is currently not generating sales.
+- The dashboard tracks unsold capital to provide visibility into inventory efficiency.
+- Further inventory turnover and aging analysis could provide deeper insights into slow-moving products.
+
+### Business Interpretation
+
+The analysis demonstrates that vendor performance should not be evaluated using sales alone. Combining sales, purchases, profitability, brand performance, and unsold inventory provides a more complete view of vendor performance.
 
 ---
 
@@ -170,44 +231,49 @@ Vendor and brand performance analysis
 
 ## 📈 Dashboard Preview
 
-🚀 Skills Demonstrated
+The Power BI dashboard provides an interactive view of vendor sales, purchasing, profitability, brand performance, and unsold inventory.
 
-This project demonstrates practical experience with:
-
-SQL
-Python
-Pandas
-NumPy
-Data Cleaning
-Exploratory Data Analysis
-Data Visualization
-Business Analytics
-Power BI
-KPI Development
-Dashboard Design
-Business Insight Generation
-Data Storytelling
+![Vendor Performance Dashboard](screenshots/VendorPerformanceSC.png)
 
 ---
 
-## ⭐ Project Summary
+## 💼 Business Value
 
-Vendor Performance Analysis demonstrates an end-to-end data analytics workflow using SQL, Python, and Power BI.
+The analysis can support organizations in:
 
-The project moves from data exploration and transformation to business intelligence reporting, providing insights into:
+- Monitoring vendor sales performance
+- Identifying major sales-contributing vendors
+- Evaluating purchasing concentration
+- Monitoring profitability
+- Identifying low-performing vendors
+- Identifying low-performing brands
+- Monitoring capital tied up in unsold inventory
+- Supporting vendor management decisions
+- Supporting inventory optimization
+- Improving data-driven procurement decisions
+- Providing management with an interactive performance dashboard
 
-Vendor sales
-Purchasing performance
-Profitability
-Brand performance
-Purchase contribution
-Low-performing vendors
-Low-performing brands
-Unsold inventory
-
-The project demonstrates practical skills in data analysis, SQL, Python, Power BI, business intelligence, data visualization, and data storytelling.
+The project demonstrates how raw operational data can be transformed into business-ready insights using SQL, Python, and Power BI.
 
 --- 
+
+## 🎯 Project Outcome
+
+The project successfully transforms raw vendor and sales data into an end-to-end analytical solution.
+
+The final solution provides:
+
+- SQL-based exploratory analysis
+- Python-based data cleaning and transformation
+- Vendor and brand performance analysis
+- Financial KPI calculations
+- Purchase contribution analysis
+- Unsold inventory analysis
+- Interactive Power BI dashboard
+- Business-focused insights
+- A structured analytics workflow suitable for portfolio demonstration
+
+---
 
 ## 🚀 Future Improvements
 
@@ -227,12 +293,6 @@ Adding additional supply-chain KPIs
 Adding interactive what-if analysis
 Adding automated alerts for important performance changes
 
----
-## 👩‍💻 Author
-
-Mamta Choudhary
-
-BSc Data Science & Artificial Intelligence
 
 Interested in:
 
@@ -243,3 +303,19 @@ Machine Learning
 Data Visualization
 
 ---
+## 👩‍💻 Author
+
+### Mamta Chaudhary
+
+🎓 **BSc Data Science & Artificial Intelligence**
+
+📧 **Email:** 
+choudharymamta1003@gmail.com
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/mamta-chaudhary-964128353/
+
+🔗 **GitHub:** 
+---
+
+⭐ If you find this project interesting, consider giving the repository a star!
+
