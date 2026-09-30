@@ -55,6 +55,9 @@ Business Insights
 
 ```
 ---
+
+## 📂 Project Structure
+
 ```
 Vendor-Performance-Analysis/
 │
